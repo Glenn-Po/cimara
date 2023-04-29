@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import QRCodeCanvas from "./components/QRCodeCanvas";
 import Landing from "./components/Landing";
 import AdminDashboard from "./components/AdminDashboard";
 import Login from "./components/Login";
