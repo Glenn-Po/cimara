@@ -25,14 +25,6 @@ export default function UserDashboard() {
   const [action, setAction] = useState(null);
   const [clockType, setClockType] = useState("CLOCK_IN");
 
-  // const [attendance, setAttendance] = useState({
-  //   employeeId: authUser?.uid,
-  //   locationId: null,
-  //   userLocation: null,
-  //   time: new Timestamp(new Date().getSeconds, 0),
-  //   type: "CLOCK_IN",
-  // });
-
   useEffect(() => {
     if (!authUser && !userIsLoading) {
       navigate("/login");
